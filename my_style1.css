@@ -1,0 +1,97 @@
+th.a {
+  border: solid gray 2px;
+}
+h1 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+html {
+  background-image: url("img/zibra_backgroud.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+
+}
+
+.men {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+.women{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+.kids {
+  color: orange;
+  background-color: lightyellow;
+  text-decoration: none;
+}
+
+.sales {
+  background-color: yellow;
+  color: violet;
+  text-decoration: none;
+}
+
+.home {
+  text-decoration: none;
+}
+footer {
+  height: 30px;
+  background-image: url("img/leg.png");
+  background-repeat:repeat-x;
+  background-size: 5%;
+  color: black;
+  animation: mymove1 5s infinite;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+header {
+
+}
+header {
+  height: 30px;
+  background-color: beige;
+  background-image: url("img/zebra_PNG8965.png");
+  background-repeat:repeat-x;
+  background-size: 5%;
+  margin: 0px;
+  padding: 0px;
+  animation: mymove 5s infinite;
+
+}
+
+@keyframes mymove {
+  from {background-color: white;}
+  to {background-color: black;}
+}
+
+@keyframes mymove1 {
+  from {background-color: black;}
+  to {background-color: white;}
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main {
+  height: 400px;
+}
